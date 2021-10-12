@@ -23,6 +23,7 @@ function displayItems(items) {
 
 function onButtonClick(event, items) {
   const value = event.target.dataset.value;
+  if (!value) return;
   displayItems(
     items.filter((item) => item.color === value || item.type === value)
   );
