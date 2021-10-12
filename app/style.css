@@ -28,6 +28,7 @@ body {
 .logo {
   cursor: pointer;
   transition: transform var(--animation-duration) ease;
+  margin-bottom: var(--base-space);
 }
 
 .logo:hover {
@@ -37,6 +38,7 @@ body {
 .bar {
   display: flex;
   justify-content: space-around;
+  width: 40%;
 }
 
 .btn {
@@ -75,7 +77,7 @@ body {
 }
 
 .itemlist {
-  width: 60%;
+  width: 40%;
   height: 60%;
   list-style: none;
   padding-left: 0;
